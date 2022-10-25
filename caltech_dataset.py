@@ -33,7 +33,7 @@ class Caltech(VisionDataset):
         path = root + '/' + split + '.txt'
         data_x = []
         data_y = []
-        label_encoder = np.load('label_encoder.npy')
+        label_encoder = np.load(root +'/' +'label_encoder.npy')
         with open(path) as f:
             lines = f.readlines()
             for line in lines:
