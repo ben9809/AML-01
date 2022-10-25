@@ -34,8 +34,8 @@ class Caltech(VisionDataset):
         data_x = []
         data_y = []
         parent = root.split('/')[0]
-        label_encoder = np.load(parent + '/' 'label_encoder.npy')
-        with open(path) as f:
+        label_encoder = np.load(parent + '/' + 'label_encoder.npy')
+        with open(parent + '/' + path) as f:
             lines = f.readlines()
             for line in lines:
                 if 'BACKGROUD' in line:
