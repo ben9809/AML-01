@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="699be556-2d66-47e9-b7b0-d8f31c11316b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/label_encoder.npy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/caltech_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/caltech_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +35,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/home/james/Documents/AML/Homework2-Caltech101",
     "node.js.detected.package.eslint": "true",
@@ -60,6 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666698289516</updated>
       <workItem from="1666698290938" duration="3571000" />
+      <workItem from="1666701960023" duration="315000" />
     </task>
     <servers />
   </component>

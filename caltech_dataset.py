@@ -78,3 +78,6 @@ class Caltech(VisionDataset):
         '''
         length = self.data_x.shape[0] # Provide a way to get the length (number of elements) of the dataset
         return length
+
+    def get_data(self):
+        return self.data_x, self.data_y
