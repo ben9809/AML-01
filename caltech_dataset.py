@@ -35,6 +35,7 @@ class Caltech(VisionDataset):
         data_y = []
         parent = root.split('/')[0]
         label_encoder = np.load(parent + '/' + 'label_encoder.npy')
+        print(parent + '/' + path)
         with open(parent + '/' + path) as f:
             lines = f.readlines()
             for line in lines:
