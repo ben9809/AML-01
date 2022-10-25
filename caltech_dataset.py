@@ -35,20 +35,20 @@ class Caltech(VisionDataset):
         data_y = []
         parent = root.split('/')[0]
         label_encoder = np.load(parent + '/' + 'label_encoder.npy')
-        print(parent + '/' + path)
-        with open(parent + '/' + path) as f:
-            lines = f.readlines()
-            for line in lines:
-                if 'BACKGROUD' in line:
-                    continue
-                img = pil_loader(root + '/' + line.split(' ')[0])
-                data_x.append(transform(img))
-                data_y.append(label_encoder.index(line.split('/')[0]))
-
-        ids = np.range(0, len(data_x))
-        np.random.shuffle(ids)
-        self.data_x = np.array(data_x[ids])
-        self.data_y = np.array(data_y[ids])
+        # print(parent + '/' + path)
+        # with open(parent + '/' + path) as f:
+        #     lines = f.readlines()
+        #     for line in lines:
+        #         if 'BACKGROUD' in line:
+        #             continue
+        #         img = pil_loader(root + '/' + line.split(' ')[0])
+        #         data_x.append(transform(img))
+        #         data_y.append(label_encoder.index(line.split('/')[0]))
+        #
+        # ids = np.range(0, len(data_x))
+        # np.random.shuffle(ids)
+        # self.data_x = np.array(data_x[ids])
+        # self.data_y = np.array(data_y[ids])
 
 
     def __getitem__(self, index):
