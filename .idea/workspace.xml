@@ -7,7 +7,6 @@
     <list default="true" id="699be556-2d66-47e9-b7b0-d8f31c11316b" name="Changes" comment="fix label encoder path">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/caltech_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/caltech_dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666698289516</updated>
       <workItem from="1666698290938" duration="3571000" />
-      <workItem from="1666701960023" duration="1159000" />
+      <workItem from="1666701960023" duration="1549000" />
     </task>
     <task id="LOCAL-00001" summary="add get_data method">
       <created>1666702476560</created>
@@ -76,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666702858091</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix label encoder path">
+      <created>1666703127612</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666703127612</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

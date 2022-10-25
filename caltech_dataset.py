@@ -30,7 +30,7 @@ class Caltech(VisionDataset):
         - Labels should start from 0, so for Caltech you will have lables 0...100 (excluding the background class) 
         
         '''
-        path = root + '/' + split + '.txt'
+        path = split + '.txt'
         data_x = []
         data_y = []
         parent = root.split('/')[0]
