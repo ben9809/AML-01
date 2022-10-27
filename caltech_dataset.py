@@ -43,7 +43,7 @@ class Caltech(VisionDataset):
                     continue
                 line = line.strip('\n')
                 img = pil_loader(root + '/' + line)
-                data_x.append(transform(img) if transform else img)
+                data_x.append(img)
                 data_y.append(np.where(label_encoder == (line.split('/')[0]))[0][0])
 
         ids = np.array(range(0, len(data_x)))
